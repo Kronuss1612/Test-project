@@ -12,6 +12,8 @@ class Snake:
         self.length = self.length + apple.nutrition
 
     def dead(self):
+        #print(Game over)
+        #print(self.length)
         pass
 
     def draw(self):
