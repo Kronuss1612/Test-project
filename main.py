@@ -1,14 +1,15 @@
 from snake import Snake
 from apple import Apple
 from map import Map
-from drawing import Drawing
-
+from window import Window
 
 FPS = 24
 
 if __name__ == '__main__':
 
-    map = Map(36)
+    window = Window()
+
+    map = Map(36, window)
 
     snake = Snake(4)
 
@@ -19,6 +20,8 @@ if __name__ == '__main__':
     apple.draw()
 
     snake.draw()
+
+    window.mainloop()
 
     #loop until game closed
     #show map, show snake and move snake grow snake, spawn apple and despawn when eaten 
