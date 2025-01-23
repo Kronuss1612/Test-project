@@ -8,5 +8,5 @@ class Apple:
         pass
 
     def eaten(self):
-        if self == 0
+        if self == 0:
         pass
