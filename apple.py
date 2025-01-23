@@ -9,4 +9,7 @@ class Apple:
 
     def eaten(self):
         if self == 0:
+            return delete(Apple)
+        else:
+            Apple.mainloop()
         pass
