@@ -6,3 +6,7 @@ class Apple:
 
     def draw(self):
         pass
+
+    def eaten(self):
+        if self == 0
+        pass
