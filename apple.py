@@ -1,3 +1,4 @@
+from snake import Snake
 class Apple:
     nutrition: int
 
@@ -7,8 +8,8 @@ class Apple:
     def draw(self):
         pass
 
-    def eaten(self):
-        if self == 0:
+    def eaten(self, snake:Snake):
+        if snake:eat:
             return delete(Apple)
         else:
             Apple.mainloop()
